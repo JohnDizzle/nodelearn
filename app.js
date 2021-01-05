@@ -1,6 +1,6 @@
-//const logger = require ('./logger');
+const logger = require ('./logger');
 
-//logger.log('Hello and how is your day');
+logger.log('Hello and how is your day');
 
 const os = require('os'); 
 var totalMenory = os.totalmem(); 
@@ -39,5 +39,7 @@ fs.readdir('../../Downloads', function(err, files){
     })(); 
 
 });
+
+ 
 
 
